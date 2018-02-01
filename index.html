@@ -1,3 +1,1024 @@
-<html>
-<h1>Test Page</h1>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Pan Dulce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="/js/app.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">Pan Dulce</a>
+                <a class="navbar-brand external" href="https://www.facebook.com/PanDulceBand/"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                <a class="navbar-brand external" href="https://www.instagram.com/pandulceband/?hl=en"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#myPage">HOME</a></li>
+                    <li><a href="#shows">SHOWS</a></li>
+                    <li><a href="#band">BAND</a></li>
+                    <li><a href="#ourMusic">MUSIC</a></li>
+                    <!--<li><a href="#photosVideos">MEDIA</a></li>-->
+                    <li><a href="#press">PRESS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <!--
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <!-- Photos in carousel have a 16:9 aspect ratio -->
+            <div class="item active">
+                <img src="images/PlanetGemini_Crop.JPG" width="1200" height="700">
+            </div>
+           
+            <div class="item">
+                <img src="images/pd_palmcard_back.jpg" width="1200" height="700">
+            </div>
+            
+            <div class="item">
+                <img src="images/pd_yoga.jpg" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h5>Photo by Ryan Mock</h5>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/pd_lips_crop_website.jpg" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h5>Art by Gabriela Bravo</h5>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/pvp_stage.JPG" width="1200" height="700">
+            </div>
+
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div id="nada" class="bg-1">
+        <div class="container">
+            <br>
+            <h4 class="text-center"><strong>
+            	Check out our new single "Pajaro!"
+            <br>
+            <br>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9lw05rFr6Ng"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Container (SHOWS Section) -->
+    <div id="shows" class="bg-1">
+        <div class="container">
+            <h3 class="text-center">UPCOMING SHOWS</h3>
+            <br>
+            <ul class="list-group">
+                
+                <li class="list-group-item">
+                    <hnews1 class="text-left">The Blue Lagoon with Sensory Tribe and Echo The Natives</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, February 3rd</hnews2>
+                    <br>
+                    We always love playing at The Blue, and this will be an awesome night of music with
+                    <a href="http://sensorytribe.com/"><u>Sensory Tribe</u></a>
+                    and
+                    <a href="https://www.facebook.com/echothenatives/"><u>Echo The Natives</u></a>
+                    joining us!
+                    <br>
+                    $5 at the door, 21+.
+                    <br>
+                    <img src="images/BlueLagoon_Feb2018.jpg" class="img-responsive" width="400">                
+                </li>
+                
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Eli's Mile High Club in Oakland</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Friday, February 9th @ 8:00 PM</hnews2>
+                    <br>
+                    We make our debut in Oakland at
+                    <a href="https://www.facebook.com/elismilehighclub/"><u>Eli's Mile High Club</u></a>
+                    playing with
+                    DJ Santa Diabla,
+                    <a href="https://www.facebook.com/malagrenasonido/"><u>Mala Gre&ntildea</u></a>,
+                    and
+                    <a href="https://www.facebook.com/LaClandestinabay/"><u>La Clandestina</u></a>!
+                    <br>
+                    $10 at the door. Doors open at 8pm, we take the stage at 9pm.
+                </li>
+                
+                <li class="list-group-item">
+                    <hnews1 class="text-left">The Caravan Lounge in San Jose with August Sun</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Friday, February 24th @ 10:00 PM</hnews2>
+                    <br>
+                    San Jose fans: join us for our first show at 
+                    <a href="http://www.caravanloungesanjose.com/"><u>The Caravan Lounge</u></a>
+                    with
+                    <a href="https://www.augustsuntheband.com/"><u>August Sun</u></a>!
+                    <br>
+                    No cover! Music runs from 10pm to 1am.
+                </li>
+                
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Salinas Sports Tavern</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, April 21st @ 9:00 PM</hnews2>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="container">
+            <h3 class="text-center">PAST SHOWS</h3>
+            <br>
+
+            <ul class="list-group">
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Abbot Square in Downtown Santa Cruz</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Friday, January 5th</hnews2>
+                    <br>
+                    Kick off the New Year at the first First Friday of the year at Abbot Square in downtown Santa Cruz!
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">The Crepe Place Opening for Novarose and Dreaming Ghosts</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Thursday, January 4th</hnews2>
+                    <br>
+                    Along with
+                    <a href="https://www.facebook.com/dreamingghosts/"><u>Dreaming Ghosts</u></a>,
+                    we'll be at
+                    <a href="http://thecrepeplace.com/"><u>The Crepe Place</u></a>
+                    opening for 
+                    <a href="https://www.facebook.com/NovaroseMusic/"><u>Novarose</u></a>
+                    as they celebrate the release of their new single.
+                    <br>
+                    $8 at the door.
+                    <br>
+                    <img src="images/Novarose_CrepePlace_Jan2018.jpeg" class="img-responsive" width="400">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Planet Gemini in Monterey</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, December 2nd @ 8:30 PM</hnews2>
+                    <br>
+                    Join us for our first show in Monterey! It's gonna be a great night at 
+                    <a href="http://www.planetgemini.com/Planet_Gemini.html"><u>Planet Gemini</u></a>
+                    with 
+                    <a href="https://www.facebook.com/LaClandestinabay/"><u>La Clandestina</u></a>
+                    and
+                    <a href="http://sensorytribe.com/"><u>Sensory Tribe</u></a>
+                    taking the stage too!
+                    <br>
+                    Presale $8, $12 at the door.
+                    <br>
+                    <img src="images/PlanetGemini_Dec2017_v2.jpg" class="img-responsive" width="600">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Crystal Bay Farm with the Rayburn Brothers Band</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, October 14th</hnews2>
+                    <br>
+                    Pan Dulce is teaming up with the Rayburn Brothers Band again for another fun Fall show at Crystal Bay Farm!
+                    Right on the Watsonville coast, the farm is a beautiful venue that's fun for the whole family. We hope to see you there!
+                    <br>
+                    $10 at the door.
+                    <br>
+                    <img src="images/Crystal_Bay_Farms_Flyer_2017.jpg" class="img-responsive" width="600">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Back Bar SoFA in San Jose</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Friday, October 6th @ 9:00 PM</hnews2>
+                    <br>
+                    We're opening at 
+                    <a href="https://www.facebook.com/BackBarSoFa408/"><u>Back Bar SoFA</u></a>
+                    in San Jose for Corazone Salvaje and Buyepongo. Come dance your ass off in San Jose with us!
+                    <br>
+                    Presale $12, $15 at the door, 21+.
+                    <br>
+                    <img src="images/backbarsofa.JPG" class="img-responsive" width="400">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Steel Bonnet Brewing Co. in Scotts Valley</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, September 23rd @ 3:00 PM</hnews2>
+                    <br>
+                    Have a few brews and chill out at
+                    <a href="https://www.steelbon.net/"><u>Steel Bonnet Brewing Co.</u></a>
+                    in Scotts Valley with us!
+                    <br>
+                    <img src="images/pd_steelbonnet_sept2017.jpg" class="img-responsive" width="600">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Salinas Sports Tavern on Mexican Independence Day</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, September 16th @ 9:00 PM</hnews2>
+                    <br>
+                    We'll be holding down the fort all night at 
+                    <a href="https://www.facebook.com/SalinasSportsTavern/"><u>Salinas Sports Tavern</u></a>.
+                    Come celebrate Mexican Independence Day, have a pint, and rock out!
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Labor Rally in Watsonville</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Monday, September 4th</hnews2>
+                    <br>
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Music Night at the Abbott Square Grand Opening in Downtown Santa Cruz</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, September 2nd @ 9:00 PM</hnews2>
+                    <br>
+                    We will be playing at the grand opening of 
+                    <a href="http://www.abbottsquare.org/"><u>Abbott Square</u></a> 
+                    in Santa Cruz, an awesome new community space by the Museum of Art and History!
+                    <br>
+                    Check out the whole grand opening celebration from Friday to Sunday. 
+                    Saturday is Music Night, with Trolley Drops taking the stage at 6pm, Papiba and Friends at 7:30pm, and us closing out the night from
+                    9 to 10pm. 
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Monterey County Fair</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, September 2nd @ 5:00 PM</hnews2>
+                    <br>
+                    We have a 45 minute set on the Community Stage at the
+                    <a href="http://montereycountyfair.com/home/"><u>Monterey County Fair</u></a>. 
+                    <br>
+                    Come rock out and check out the rest of the fair!
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Labor Day Festival for the City of Marina</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, September 2nd @ 12:00 PM</hnews2>
+                    <br>
+                    Celebrate Labor Day with us in Vince DiMaggio Park in the City of Marina this year!
+                    <br>
+                    The parade starts at 11am and we take the stage for 2 hours starting at noon, with the festivities running until 3pm.
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">The Blue Lagoon in Santa Cruz</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, August 26th @ 9:00 PM</hnews2>
+                    <br>
+                    We'll be back at 
+                    <a href="http://www.thebluelagoon.com/"><u>The Blue Lagoon</u></a> 
+                    with our friends 
+                    <a href="https://fulminanteband.com/"><u>Fulminante</u></a>,
+		    <a href="https://www.facebook.com/LaClandestinabay/"><u>La Clandestina</u></a>, 
+		    and Boxweed!
+		    <br>
+		    $5 at the door, 21+.
+		    <br>
+                    <img src="images/bl_flyer_Aug2017_v2.jpg" class="img-responsive" width="400">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Watsonville Strawberry Festival</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, August 5th</hnews2>
+                    <br>
+                    We'll be playing at the Watsonville Strawberry Festival this year! 
+                    We have 1 hour sets at 11am in the beer garden and 3:30pm on the main stage.
+                    <br>
+                    <img src="images/strawberry_festival.jpeg" class="img-responsive" width="400">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Moe's Alley with ZuhG and Corazon Salvaje</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Thursday, July 13th @ 7:00 PM</hnews2>
+                    <br>
+                    We'll be back at 
+                    <a href="http://www.moesalley.com/"><u>Moe's Alley</u></a>, 
+                    this time playing with Sacramento reggae/jam band 
+                    <a href="https://zuhgmusic.com/"><u>ZuhG</u></a>
+                    and San Jose cumbia band
+                    <a href="https://www.facebook.com/corazonsalvajemusic/"><u>Corazon Salvaje</u></a>.
+                    <br>
+                    Tickets are $7 in <a href="http://www.moesalley.com/tickets.php?show_id=2561"><u>advance</u></a>
+                    and $10 at the door.
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Askultura Album Release Support at Appleton</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Wednesday, June 14th @ 7:00 PM</hnews2>
+                    <br>
+                    Miami-based punk/ska/rumba band Askultura will be in Watsonville promoting their new album at the
+                    <a href="http://appletongrill.com/"><u>Appleton Grill</u></a>
+                    and we'll be opening for them! Our trombone player Alex is a big fan, so come check them out!
+                    <br>
+                    $10 at the door.
+                    <br>
+                    <img src="images/Askultura_Appleton2017.jpeg" class="img-responsive" width="350">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Art Show in Santa Cruz</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, June 10th @ 8:00 PM</hnews2>
+                    <br>
+                    Come support the local activist group Revolunas and check out local artists 
+                    <a href="https://www.facebook.com/events/122763291634470"><u>uniting for a cause</u></a> 
+                    in Santa Cruz at 
+                    <a href="https://santacruzcapoeira.com/"><u>Raises do Brasil Centro Cultural de Capoeira</u></a>
+                    (207 McPherson Street) from 5 to 11pm.
+                    We'll be playing from 8 to 9pm.
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">International Workers' Day March in Salinas</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Monday, May 1st @ 10:00 AM</hnews2>
+                    <br>
+                    Celebrate labor with us at the 
+                    <a href="https://www.facebook.com/events/449993178680539/?active_tab=about"><u>International Workers' Day March</u></a>
+                    at Cesar Chavez Park in Salinas, cohosted by Teamsters 890 and UFCW Local 5.
+                    <br>
+                    <img src="images/workers_march_2017.jpg" class="img-responsive" width="400">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Acoustic Set at Caffe Frascati in San Jose</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, April 29th @ 8:00 PM</hnews2>
+                    <br>
+                    We will be playing an acoustic set at 
+                    <a href="http://caffefrascati.com/"><u>Caffe Frascati</u></a>
+                    in downtown San Jose! Drop by and chill out with a cappuccino or a glass of wine.
+                    <br>
+                    <img src="images/CFFlyer_April2017.jpg" class="img-responsive" width="600">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Appleton Grill with Pop Bottle Bombers and Moonlyts</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, April 1st @ 8:00 PM</hnews2>
+                    <br>
+                    We'll be back at the <a href="http://appletongrill.com/"><u>Appleton Grill</u></a>, this time
+                    with
+                    <a href="https://www.facebook.com/Pop-Bottle-Bombers-137654106274284/"><u>Pop Bottle Bombers</u></a> 
+                    and
+                    Moonlyts.
+                    <br>
+                    Check out the show for $6!    
+                    <br>
+                    <img src="images/AppletonApril1.jpeg" class="img-responsive" width="400">
+                </li>
+            
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">St. Patrick's Day at The Blue Lagoon with Red Store Bums</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Friday, March 17th @ 9:30 PM</hnews2>
+                    <br>                     
+		    Get piss drunk and rock out on St. Patrick's day at 
+		    <a href="http://www.thebluelagoon.com/"><u>The Blue Lagoon</u></a> 
+		    with us,
+		    <a href="https://www.facebook.com/RedStoreBums/about/"><u>Red Store Bums</u></a>,
+		    <a href="https://fulminanteband.com/"><u>Fulminante</u></a>,
+		    and
+		    <a href="https://www.facebook.com/theshigs/"><u>The Shigs</u></a>!  
+		    <br>
+		    $7 at the door. Doors open at 9pm, music starts at 9:30pm.
+		    <br>
+                    <img src="images/red_store_bums.jpeg" class="img-responsive" width="400">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Moss Landing Surf Show</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, March 11th @ 7:30 PM</hnews2>
+                    <br>                     
+		    The Moss Landing Surf Show will be getting down to sweet grooves by Pan Dulce this year! 
+		    <br>
+		    Join in the surf swap and shop from 4-6pm, the surf show from 6-7:30p, and then rock out with us for the rest of the night! 
+		    <br>
+		    Held at the Elkhorn Yacht Club of off Highway 1 in Moss Landing. 
+		    <br>
+		    $10 entry fee. Food and alcohol for purchase.
+		    <br>
+                    <img src="images/moss_landing_surf.jpg" class="img-responsive" width="450">
+                </li>
+                
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Moe's Alley with Cruzah and Nomalakadoja</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Wednesday, March 8th @ 8:00 PM</hnews2>
+                    <br>                     
+		    We're proud to annouce our debut at
+		    <a href="http://www.moesalley.com/"><u>Moe's Alley</u></a>
+		    in Santa Cruz, where we will be opening for 
+		    <a href="https://www.nomalakadoja.com/"><u>Nomalakadoja</u></a>
+		    and
+		    <a href="http://www.cruzah.com/"><u>Cruzah</u></a>.
+		    <br>
+		    Doors open at 8pm, music starts at 8:30pm. $7 at the door, $5 in advance.
+                    <img src="images/moes_March2017.jpeg" class="img-responsive" width="350">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">The Blue Lagoon with The Proudest Monkeys</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, February 11th @ 9:00 PM</hnews2>
+                    <br>                     
+		    We'll be back at 
+		    <a href="http://www.thebluelagoon.com/"><u>The Blue Lagoon</u></a> 
+		    in Santa Cruz with 
+		    <a href="http://www.driftingcompass.com/"><u>Drifting Compass</u></a>,
+		    <a href="http://theproudestmonkeys.com/"><u>The Proudest Monkeys</u></a>,
+		    and
+		    <a href="http://www.jamezilis.com/"><u>Jason Achilis Mezilis</u></a>! 
+		    <br> 
+		    $5 at the door.
+		    <br>
+                    <img src="images/bluelagoon1_Feb2017.jpg" class="img-responsive" width="400">
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">The Sand Bar in Capitola with the Rayburn Bros</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Friday, February 3rd @ 8:00 PM</hnews2>
+                    <br>                     
+		    We'll be at 
+		    <a href="http://www.thesandbarcapitola.com/"><u>The Sand Bar</u></a>
+		    at the Capitola beach on Friday! The 
+		    <a href="http://www.rayburnbrothers.com/"><u>Rayburn Brothers Band</u></a>
+		    will be opening starting at 8pm, and then we take the stage until midnight. Hope to see you there!
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Party at Watsonville Yoga in Downtown Watsonville</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Saturday, January 28th @ 7:00 PM</hnews2>
+                    <br>                     
+		    Come join in the dance party at 
+		    <a href="http://www.watsonville.yoga/"><u>Watsonville Yoga, Dance, and Healing Arts</u></a> 
+		    in downtown Watsonville! 
+		    <br>
+		    Libations will be provided by Midnight Gazebo Brewing!
+		    <br>
+		    The party starts at 7:00 PM and goes until 9:30 PM. $12 at the door. Come early to check out an African dance class!
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Hands Around the Plaza in Watsonville (Acoustic Set)</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Thursday, January 19th @ 5:00 PM</hnews2>
+                    <br>
+                    We have the privilege of kicking off the Hands Around the Plaza - Unity Through Diversity event.
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Casa Sorrento in Salinas with Fulminante</hnews1>
+                    <br>
+                    <hnews2 class="text-left">Friday, December 2nd @ 9:00 PM</hnews2>
+                    <br> We'll be taking the stage again alongside our favorite punkabilly trio 
+                    <a href="https://www.facebook.com/FulminanteBand/?fref=ts"><u>Fulminante</u></a>, this time at 
+                    <a href="http://www.casasorrento.com/index.php"><u>Casa Sorrento</u></a> in Salinas!
+                    We'll have copies of our new EP "Not Like the Other Ones" for sale!
+                    Brought to you by <a href="https://www.facebook.com/rocklab831/"><u>Rocklab</u></a> 
+                    entertainment.                     
+                    <br> 
+                    Show starts at 9pm.
+                    <br>
+                    <img src="images/392_fulminante_&_pan_dulce_12-02.jpg" class="img-responsive" width="400">
+                </li>
+            
+             	<li class="list-group-item">
+                    <hnews1 class="text-left">EP Release at Appleton Grill with Pacific Roots and Qiensave</hnews1>
+                    <br>
+                    <hnews2 class="text-left">November 12th @ 7:30 PM</hnews2>
+                    <br> We're releasing our EP "Not Like the Other Ones" at the <a href="http://appletongrill.com/"><u>Appleton Grill</u></a> on Saturday, November 12th playing with the
+                    <a href="https://www.facebook.com/pacificrootsmusic/"><u>Pacific Roots</u></a> and
+                    <a href="https://www.reverbnation.com/qiensave"><u>Qiensave</u></a>.
+                    <br> Come show us some love!
+                    <br> Music starts at 8pm, $5 at the door.
+                    <br>
+                    <img src="images/flyernov12 (1).jpg" class="img-responsive" width="500">
+                </li>
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Rocktoberfest Scholarship Fundraiser for Watsonville High School</hnews1>
+                    <br>
+                    <hnews2 class="text-left">October 14th @ 7:00 PM</hnews2>
+                    <br> We'll be playing at the 2nd annual Rocktoberfest fundraiser hosted by the Watsonville High School MATA club. Come on out to the Mello Center for the Performing Arts and help fundraise for college scholarships!
+                </li>
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">The Crow's Nest at Santa Cruz Harbor</hnews1>
+                    <br>
+                    <hnews2 class="text-left">October 13th @ 8:30 PM</hnews2>
+                    <br> Join us for our debut at
+                    <a href="http://www.crowsnest-santacruz.com"><u>The Crow's Nest</u></a>, we'll be holding down the bar the whole night!
+                    <img src="images/crows_nest_flyer.jpg" class="img-responsive" width="500">
+                </li>
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Crystal Bay Farm with Rayburn Brothers Band and beer by Midnight Gazebo Brewing</hnews1>
+                    <br>
+                    <hnews2 class="text-left">October 8th @ 4 PM</hnews2>
+                    <br> On October 8th we'll be at
+                    <a href="http://www.crystalbayfarm.com/"><u>Crystal Bay Farm</u></a>, an awesome outdoor venue. The
+                    <a href="http://www.rayburnbrothers.com/"><u>Rayburn Brothers Band</u></a> will be there too laying down their country rock groove. AND Midnight Gazebo Brewing will be there sharing their delicious libations. All for just $10 at the
+                    door. DON'T MISS IT.
+                    <img src="images/Crystal_Bay_Farms_Flyer_v3.jpg" class="img-responsive" width="500">
+                </li>
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">The Blue Lagoon with Fulminante and Qiensave</hnews1>
+                    <br>
+                    <hnews2 class="text-left">September 23rd @ 9 PM</hnews2>
+                    <br> We'll be rocking out at <a href="http://www.thebluelagoon.com/"><u>The Blue Lagoon</u></a> in Santa Cruz with <a href="https://www.facebook.com/FulminanteBand/?fref=ts"><u>Fulminante</u></a> and
+                    <a href="https://www.reverbnation.com/qiensave"><u>Qiensave</u></a>. Come spend your Friday night on the dance floor with us! $5 at the door.
+                    <br>
+                    <img src="images/BLflyer_9-23-16_explicit.jpg" class="img-responsive" width="500">
+                </li>
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Private Party (Acoustic Set)</hnews1>
+                    <br>
+                    <hnews2 class="text-left">September 23rd @ 6 PM</hnews2>
+                </li>
+
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Mexican Independence Day Festival in Watsonville</hnews1>
+                    <br>
+                    <hnews2 class="text-left">September 11th @ 1 PM</hnews2>
+                    <br> We'll be joining in the Mexican Independence Day Festival at the Watsonville Civic Plaza on Sunday, September 11th. The festivals runs from 10:30am to 4pm and we take the stage from 1-1:30pm.
+                </li>
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Pajaro Valley Pride Festival</hnews1>
+                    <br>
+                    <hnews2 class="text-left">August 21st @ 12:30 PM</hnews2>
+                    <br> We'll be playing at the <a href="https://www.facebook.com/events/618678868287997/"><u>Pajaro Valley Pride Festival</u></a> at the Watsonville downtown plaza - come rock out, celebrate diversity, and join the festival! The festival
+                    runs from 11am to 4pm, and we take the stage at 12:30pm.
+                </li>
+
+                <li class="list-group-item">
+                    <hnews1 class="text-left">JJ's Blues</hnews1>
+                    <br>
+                    <hnews2 class="text-left">July 16th @ 9 PM</hnews2>
+                    <br> We'll be back at
+                    <a href="http://www.jjsblues.com/"><u>JJ's Blues</u></a> in San Jose on <a href="https://www.facebook.com/events/258965284469435/"><u>July 16th</u></a> with The Knee Deep Band and STREAM. Music starts at 9pm and we go on at 11pm.
+                    <br>
+                    <img src="images/jjs_flyer_july16.jpg" class="img-responsive" width="600">
+                </li>
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Appleton Grill in Watsonville</hnews1>
+                    <br>
+                    <hnews2 class="text-left">July 9th @ 7:30 PM</hnews2>
+                    <br> Join us, the
+                    <a href="http://www.rayburnbrothers.com/"><u>Rayburn Brothers Band</u></a>, and
+                    <a href="https://www.facebook.com/pacificrootsmusic/"><u>Pacific Roots</u></a> at the
+                    <a href="http://appletongrill.com/"><u>Appleton Grill</u></a> in Watsonville; an epic music hall with tons of space to rock out!
+                    <br>
+                    <img src="images/Appleton%20Bar%20and%20Grill%20July%209th%20Flier%206-15-16.jpg" class="img-responsive" width="400">
+                </li>
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Midnight Gazebo Brewing Private Beer Tasting Party</hnews1>
+                    <br>
+                    <hnews2 class="text-left">July 2nd</hnews2>
+                    <br> We have the privilege of rocking out while the Midnight Gazebo brewers shared their craft wares.
+                    <br>
+                    <img src="images/midnight_gazebo.JPG" class="img-responsive" width="300">
+                </li>
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Opening at The Blue Lagoon in Santa Cruz</hnews1>
+                    <br>
+                    <hnews2 class="text-left">June 21st @ 9 PM</hnews2>
+                    <br> We will be opening for
+                    <a href="http://publicdisplaypr.com/epk/whocansleep.html"><u>Who Can Sleep</u></a> and
+                    <a href="http://moonbeaux.bandcamp.com/"><u>Moonbeaux</u></a> at the
+                    <a href="http://www.thebluelagoon.com/"><u>The Blue Lagoon</u></a> in Santa Cruz. Join us for an awesome night of indie rock! Check out the event on
+                    <a href="https://www.facebook.com/events/569732176539653/?notif_t=plan_user_invited&notif_id=1465279086424615"><u>Facebook</u></a>.
+                    <br>
+                    <img src="images/Who%20Can%20Sleep.Blue%20Lagoon.JPG" class="img-responsive" width="300">
+                </li>
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Watsonville Skate Park Grand Opening</hnews1>
+                    <br>
+                    <hnews2 class="text-left">May 21st @ 3 PM</hnews2>
+                    <br> Celebrate the grand opening of the
+                    <a href="https://www.facebook.com/events/908476885928121/"><u>Watsonville Skate Park</u></a> at Ramsay Park in Watsonville along with us, Prodigal, Solo Grindin, and Highway Murderers!
+                    <br>
+                    <img src="images/skate%20park%20show%20(1).jpg" class="img-responsive" width="500">
+                </li>
+                <li class="list-group-item">
+                    <hnews1 class="text-left">JJ's Blues in San Jose with Fulminante</hnews1>
+                    <br>
+                    <hnews2 class="text-left">May 19th @ 9 PM</hnews2>
+                    <br> Come rock with us and <a href="https://www.facebook.com/FulminanteBand/?fref=ts"><u>Fulminante</u></a> at <a href="http://www.jjsblues.com/"><u>JJ's Blues</u></a> in San Jose on May 19th! Music starts at 9 PM.
+                    <br>
+                    <img src="images/JJs%20Flyer1-2016.jpg" class="img-responsive" width="500">
+                </li>
+                <li class="list-group-item">May 1st 3 PM @
+                    <a href="https://www.facebook.com/events/1243998425628474/"><u>LA PENA CAMPESINA</u></a>, Maple Ave, Watsonville, CA
+                    <</li>
+                        <li class="list-group-item">April 9th 5:30 PM @ 2ND STREET CAFE, Watsonville, CA</li>
+                        <li class="list-group-item">February 27th 11 PM @ THE APPLETON GRILL, Watsonville, CA</li>
+                        <li class="list-group-item">February 6th 8 PM @ THE FISH HOUSE, Watsonville, CA</li>
+                        <li class="list-group-item">December 31st 8 PM @ THE AROMAS GRANGE, Aromas, CA</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Container (The Band Section) -->
+    <!-- Bio pics have a 4:3 aspect ratio -->
+    <div id="band" class="container text-center">
+        <h3>THE BAND</h3>
+        <p align="left">
+            We are Pan Dulce - six people who love making music and putting on a great show. We are all bakers in this band, giving us a blend of diverse sounds and styles. Our music is probably best described as “rock,” but with influences from reggae, funk, punk,
+            ska, and blues - a sweet variety. That’s what Pan Dulce is, but you’ll only truly know if you come check us out!
+        </p>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Gabi Bravo</strong></p>
+                <h6>Lead Vocals, Piano, & Melodica</h6>
+                <a href="#gabi" data-toggle="collapse">
+                    <img src="images/gabby_bio_pic_crop.jpg" class="img-circle person" alt="Gabby Bravo" width="255" height="255">
+                </a>
+                <div id="gabi" class="collapse">
+                    For me, the act of singing embodies emotions from the past and present. I was born in Veracruz, Mexico and lived part of childhood there. I began playing the keyboard when I was thirteenth years old and picked up the melodica, my favorite key instrument,
+                    more recently. I’m really inspired to sing and share the love. Speaking spanish and having Mexican roots gives me a lot to work with lyrically and musically. Being part of Pan Dulce is art, and I get to connect with the people watching
+                    us play regardless of the language we speak. Bands and singers like, Carla Morrison, Lana Del Rey, and Radiohead are great inspirations to me. Variety comes attached to Pan Dulce. Each of us has a different musical and ethnic background,
+                    so we like to include all the Pan. Thank you for all the love.
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Alejandro Rayburn</strong></p>
+                <h6>Trombone & Backup Vocals</h6>
+                <a href="#alex" data-toggle="collapse">
+                    <img src="images/alex_bio_pic_crop.jpg" class="img-circle person" alt="Alejandro Rayburn" width="255" height="255">
+                </a>
+                <div id="alex" class="collapse">
+                    Alejandro began calling himself a musician at a very young age but it wasn't until he picked up the trombone that other people started to agree with him… Over the years his trombone began to develop rich somber melodies as he played with different local
+                    Jazz, Ska, and Rock bands. However, it was when he met the members of what would later become the band Pan Dulce that those melodies truly found their home.
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Chris Harrison</strong></p>
+                <h6>Guitar, Hand Percussion, & Piano</h6>
+                <a href="#chris" data-toggle="collapse">
+                    <img src="images/chris_bio_pic_crop.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+                </a>
+                <div id="chris" class="collapse">
+                    Chris is a student of music in various forms. You might find him playing in a classical performance, or building a stage for a music festival, or mixing tracks for a badass rock group. Pan Dulce allows him to bring together this variety for some sweet
+                    sweet shows!
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Kito Rayburn</strong></p>
+                <h6>Bass Guitar</h6>
+                <a href="#kito" data-toggle="collapse">
+                    <img src="images/kito_bio_pic_crop.jpg" class="img-circle person" alt="Kito Rayburn" width="255" height="255">
+                </a>
+                <div id="kito" class="collapse">
+                    I have had the pleasure of playing bass for a few bands that have covered a broad range of styles. Stealing the odd tidbit from each of these experiences, what you hear from my bass playing is a culmination of these gathered musical nuances. I believe
+                    I have developed a deep, expressive tone that radiates into the floorboards of any venue we make our way through. I hope you enjoy our music and show Pan Dulce some love by dancing with us at our next show!
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Ryan Sills</strong></p>
+                <h6>Drums</h6>
+                <a href="#ryan" data-toggle="collapse">
+                    <img src="images/ryan_bio_pic_crop.JPG" class="img-circle person" alt="Ryan Sills" width="255" height="255">
+                </a>
+                <div id="ryan" class="collapse">
+                    Ryan has been playing drums for 12 years. He is a mechanical engineer by day, but dreams of rock-stardom by night. He mostly listens to and is influenced by progressive metal. His philosophy is that drums should elevate the overall song, and of course
+                    provide a badass riff from time to time. He tries to bring energy to every song, and wants people to get up on their damn feet!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ourMusic" class="bg-1">
+        <div class="container">
+            <h3 class="text-center">OUR MUSIC</h3>
+            <br>
+            <h4 class="text-center"><strong>Not Like the Other Ones EP is out now!
+            Get it on 
+            <a href="https://www.cdbaby.com/cd/pandulce2"><h4><u>CD Baby,</u></h4></a>
+            iTunes, 
+            <a href="https://play.spotify.com/album/3yn89iktXEodj1tyaRifzD?play=true&utm_source=open.spotify.com&utm_medium=open">
+            <h4><u>Spotify,</u></h4></a> and 
+            <a href="https://www.amazon.com/Not-Like-Other-Ones-Explicit/dp/B01MQH1UKZ/ref=sr_1_3?s=dmusic&ie=UTF8&qid=1478967339&sr=1-3-mp3-albums-bar-strip-0&keywords=pan+dulce"><h4><u>Amazon!</u></h4></a>
+            </strong></h4>
+
+            <br>
+
+            <center> <img src="images/EP_cover_RBS.jpg" class="img-responsive" width="500"> </center>
+
+	    <br>
+	    
+	    <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MxM6bhgcgQw"></iframe>
+            </div>
+            
+            <br>
+
+	    <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="//www.youtube.com/embed/Sm3z9wxtSt4"></iframe>
+            </div>
+
+            <br>
+
+	    <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="//www.youtube.com/embed/KemVv31tOjE"></iframe>
+            </div>
+
+            <br><br>
+            
+            <h3 class="text-center">Other Recordings</h3>
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 text-center"
+                >
+                    <h2 id="selectedsongtitle"></h2>
+                    <center>
+                        <audio id="audio" controls>
+                        <source id="source" src="" type="audio/mpeg">
+                    </center>
+                </audio>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 text-center">
+                    <center>
+                        <ol>
+                            <!--
+                            <li><a id="firstsong" href="#" audiosrc="/music/Like_The_Other_Ones_(Live).mp3">Like The Other Ones (Live @ The Fish House)</a></li>
+                            <li><a href="#" audiosrc="/music/The_Answer_(Live).mp3">The Answer (Live @ The Fish House)</a></li>
+                            -->
+                            <li><a href="#" audiosrc="/music/Ambient_Desert_Midnight_Gazebo.mp3">Ambient Desert (Live)</a></li>
+                            <li><a href="#" audiosrc="/music/NGB_8-14-16.mov">Never Going Back (Practice Recording)</a></li>
+                            <!--
+                            <li><a href="#" audiosrc="/music/BYDK_8-14-16.mov">Baby You Don't Know (Practice Recording)</a></li>
+                            -->
+                        </ol>
+                    </center>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+
+
+
+            <p class="text-center"><strong>Wanna hear more? Like us on
+            <a href="https://www.facebook.com/PanDulceBand/"><u>Facebook</u></a> and follow us on
+            <a href="https://www.instagram.com/pandulceband/?hl=en"><u>Instagram</u></a> to hear
+            about upcoming shows!</strong></p>
+        </div>
+    </div>
+
+<!--
+    <div id="photosVideos" class="bg-1">
+        <div class="container">
+            <h3 class="text-center">PHOTOS & VIDEOS</h3>
+
+            <br>
+            <div class="col-lg-12 text-center">
+                <center><img src="images/2nd_street.jpg" class="img-responsive" width="600"></center>
+                <p class="text-center"><strong>Rocking out at the 2nd Street Cafe in Watsonville where we opened for Making Movies</strong></p>
+            </div>
+
+            <br>
+            <div class="col-lg-2 col-sm-2 text-center">
+            </div>
+            <div class="col-lg-8 col-sm-8 text-center">
+                <video align="center" width="100%" controls>
+                    <source src="/video/IMG_1141.TRIM.mp4" type="video/mp4">
+                </video>
+                <p class="text-center"><strong>Messing around in the studio while recording our EP</strong></p>
+            </div>
+            <div class="col-lg-2 col-sm-2 text-center">
+            </div>
+        </div>
+    </div>
+-->
+
+    <!-- Container (TOUR Section)
+    <div id="shows" class="bg-1">
+        <div class="container">
+            <h3 class="text-center">SHOWS</h3>
+            <ul class="list-group">
+                <li class="list-group-item">May 21st 3 PM @ RAMSEY SKATE PARK, Watsonville, CA</li>
+		<li class="list-group-item">May 19th 9 PM @ <a href="http://www.jjsblues.com/"><u>JJ'S BLUES</u></a>
+		, 3439 Steven's Creek Blvd, San Jose, CA</li>
+		<li class="list-group-item">May 1st  3 PM @ <a href="https://www.facebook.com/events/1243998425628474/"><u>LA PENA CAMPESINA</u></a>
+		, 134 Maple Av, Watsonville, CA (Acoustic Set)</li>
+                <li class="list-group-item"><strike>April 9th 5:30 PM @ 2ND STREET CAFE, Watsonville, CA</strike></li>
+                <li class="list-group-item"><strike>February 27th 11 PM @ THE APPLETON GRILL, Watsonville, CA</strike></li>
+                <li class="list-group-item"><strike>February 6th 8 PM @ THE FISH HOUSE, Watsonville, CA</strike></li>
+                <li class="list-group-item"><strike>December 31st 8 PM @ THE AROMAS GRANGE, Aromas, CA</strike></li>
+            </ul>
+        </div>
+    </div>
+    -->
+    
+    <!-- Container (PRESS Section) -->
+    <div id="press" class="bg-1">
+        <div class="container">
+            <h3 class="text-center">PRESS</h3>
+            <br>
+            <ul class="list-group">
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Hands Around the Plaza event in Register-Pajaronian</hnews1>
+                    <br>
+                    <hnews2 class="text-left">January 22, 2017</hnews2>
+                    <br>
+                    We were pictured in an article by the 
+                    <a href="http://www.register-pajaronian.com/v2_news_articles.php?heading=0&story_id=22700&page=72"><u>Register-Pajaronian</u></a> 
+                    covering the Hands Around the Plaza event in the Watsonville plaza where we played an acoustic set.
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">EP Release in the Register-Pajaronian</hnews1>
+                    <br>
+                    <hnews2 class="text-left">November 9, 2016</hnews2>
+                    <br>
+                    The 
+                    <a href="http://www.register-pajaronian.com/v2_news_articles.php?heading=0&page=72&story_id=22291"><u>Register-Pajaronian</u></a> 
+                    wrote a short article and recorded a podcast epside about us and our EP release at 
+                    <a href="http://appletongrill.com/"><u>Appleton Grill</u></a>.
+                </li>
+            
+            	<li class="list-group-item">
+                    <hnews1 class="text-left">Front Page of Register-Pajaronian after Pajaro Valley Pride Festival</hnews1>
+                    <br>
+                    <hnews2 class="text-left">August 22, 2016</hnews2>
+                    <br>
+                    We were on the front page of the 
+                    <a href="http://www.register-pajaronian.com/v2_news_articles.php?heading=0&page=72&story_id=21761"><u>Register-Pajaronian</u></a> 
+                    as part of an article covering the Pajaro Valley Pride Festival, where we performed and celebrated diversity.
+                </li>
+            
+                <li class="list-group-item">
+                    <hnews1 class="text-left">Love Your Local Band column in Good Times</hnews1>
+                    <br>
+                    <hnews2 class="text-left">October 12, 2016</hnews2>
+                    <br>
+                    Leading up to our first gig at 
+		    <a href="http://www.crowsnest-santacruz.com"><u>The Crow's Nest</u></a>,                     
+		    we were in the 
+		    <a href="http://goodtimes.sc/santa-cruz-arts-entertainment/santa-cruz-music/love-your-local-santa-cruz-band/love-local-band-pan-dulce/"><u>Love Your Local Band</u></a>
+		    column of Santa Cruz's Good Times newspaper. 
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+        <h3 class="text-center">Contact</h3>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p><span class="glyphicon glyphicon-map-marker"></span>California, US</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email: pandulceband@gmail.com
+                </p>
+            </div>
+            <div class="col-md-8">
+                <form role="form" action="MAILTO:pandulceband@gmail.com" method="post" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="googleMap"></div>
+
+    <!-- Add Google Maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        var myCenter = new google.maps.LatLng(36.979648, -122.026715);
+
+        function initialize() {
+            var mapProp = {
+                center: myCenter,
+                zoom: 12,
+                scrollwheel: false,
+                draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
+
+            marker.setMap(map);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <br>
+        <br>
+        <p>Created By SILLYDEVELOPMENT.COM</p>
+    </footer>
+</body>
+
+</html>
